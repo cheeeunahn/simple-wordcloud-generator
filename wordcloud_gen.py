@@ -62,7 +62,7 @@ def make_wordcloud():
     # the path which korean font is stored
     font_path = './font/NanumBarunGothic.ttf'
 
-    # generate wordcloud
+    # generate word cloud
     wordcloud = WordCloud(
         font_path = font_path,
         background_color="white",
