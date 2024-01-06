@@ -2,7 +2,13 @@
 This is a really simple python script that creates a wordcloud after reading text from an Excel file.
 
 ## How to run the script
-Download (or clone) the repository and then run main.py (make sure to have Python installed):
+
+### Step 1
+Download (or clone) the repository and place your Excel file in `excel_file` folder.
+You may delete the `temp.xlsx` file.
+
+### Step 2
+Run `main.py` (make sure to have Python installed):
 ```
 python3 main.py
 ```
