@@ -11,6 +11,10 @@ Run `main.py` (make sure to have a recent version of Python installed):
 ```
 python3 main.py
 ```
+If you are using a Mac, use [Homebrew](https://brew.sh/) to install the latest version of python:
+```
+brew install python3
+```
 The libraries used are the following (make sure to install them first before running the script):
 - pandas
 - matplotlib
@@ -23,8 +27,9 @@ The libraries used are the following (make sure to install them first before run
 (If you have pip installed, run the following:)
 ```
 pip install pandas matplotlib wordcloud openpyxl tkinter os sys
-# depending on which pip version you have, you might have to enter pip3
 ```
+Depending on which pip version you have, you might have to enter `pip3` instead of `pip`.
+Check pip version using `pip --version` or `pip3 --version`.
 
 ### Step 3
 After running the script, the script will create a png file of the resulting wordcloud. The file name is `wordcloud_result.png`.
