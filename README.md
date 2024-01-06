@@ -4,17 +4,18 @@ This is a really simple python script that creates a wordcloud after reading tex
 ## How to run the script
 
 ### Step 1
-Download (or clone) the repository and place your Excel file in `excel_file` folder. You may delete the `temp.xlsx` file.
+Download (or clone) the repository and place your Excel file in `excel_file` folder. You may delete the `temp.xlsx` file if you wish.
 
 ### Step 2
-Run `main.py` (make sure to have Python installed):
+Run `main.py` (make sure to have a recent version of Python installed):
 ```
 python3 main.py
 ```
 The libraries used are the following (make sure to install them first before running the script):
 - pandas
-- matplotlib.pyplot
+- matplotlib
 - wordcloud
+- openpyxl
 - os
 - sys
 - tkinter
