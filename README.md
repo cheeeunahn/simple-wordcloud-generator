@@ -20,4 +20,4 @@ The libraries used are the following (make sure to install them first before run
 - tkinter
 
 ### Step 3
-After running the script, a png file of the wordcloud is generated. The file name is `wordcloud_result.png`.
+After running the script, the script will create a png file of the resulting wordcloud. The file name is `wordcloud_result.png`.
