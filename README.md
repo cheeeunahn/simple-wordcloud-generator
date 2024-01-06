@@ -20,5 +20,11 @@ The libraries used are the following (make sure to install them first before run
 - sys
 - tkinter
 
+(If you have pip installed, run the following:)
+```
+pip install pandas matplotlib wordcloud openpyxl tkinter os sys
+# depending on which pip version you have, you might have to enter pip3
+```
+
 ### Step 3
 After running the script, the script will create a png file of the resulting wordcloud. The file name is `wordcloud_result.png`.
