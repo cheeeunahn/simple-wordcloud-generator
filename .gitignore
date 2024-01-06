@@ -7,3 +7,4 @@ __pycache__/
 
 #Ignore txt file
 /comment_list.txt
+/wordcloud_result.png
