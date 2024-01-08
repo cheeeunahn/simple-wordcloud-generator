@@ -11,10 +11,6 @@ Run `main.py` (make sure to have a recent version of Python installed):
 ```
 python3 main.py
 ```
-If you are using a Mac, use [Homebrew](https://brew.sh/) to install the latest version of python:
-```
-brew install python3
-```
 The libraries used are the following (make sure to install them first before running the script):
 - pandas
 - matplotlib
@@ -24,7 +20,7 @@ The libraries used are the following (make sure to install them first before run
 - sys
 - tkinter
 
-(If you have pip installed, run the following:)
+(If you have pip installed, you can either install each library separately or run the following:)
 ```
 pip install pandas matplotlib wordcloud openpyxl tkinter os sys
 ```
@@ -33,3 +29,6 @@ Check pip version using `pip --version` or `pip3 --version`.
 
 ### Step 3
 After running the script, the script will create a png file of the resulting wordcloud. The file name is `wordcloud_result.png`.
+
+### Note
+After running `python3 main.py` you may find a document named `comment_list.txt` in the directory. This is a temporary file that gets deleted every time the script is run.
